@@ -11,19 +11,14 @@ DKAL is a lightweight stock price calculator designed to help investors quickly 
 * Built using Python
 
 ## Screenshot
-
-*(You can add a screenshot here later)*
-
 ```
 (space for screenshot - need to upload)
 ```
 
 ## How It Works
-
 The calculator estimates the **minimum selling price required to avoid a loss** after accounting for trading commissions.
 
 Typical calculation flow:
-
 1. Enter **buy price**
 2. Enter **number of shares**
 3. Enter **commission rate**
@@ -32,48 +27,33 @@ Typical calculation flow:
 ## Installation
 
 ### Option 1 — Download Executable
-
 Download the latest `.exe` from the **Releases** section.
-
 Run:
-
 ```
 dkal.exe
 ```
-
 No Python installation required.
 
 ### Option 2 — Run from Source
-
 Clone the repository:
-
 ```
-git clone https://github.com/YOUR_USERNAME/dkal.git
+git clone https://github.com/DhivKrish7/dkal-stock-price-toolkit.git
 cd dkal
 ```
-
 Create virtual environment:
-
 ```
 python -m venv venv
 ```
-
 Activate environment:
-
 Windows:
-
 ```
 venv\Scripts\activate
 ```
-
 Install dependencies:
-
 ```
 pip install -r requirements.txt
 ```
-
 Run the application:
-
 ```
 python dkal.py
 ```
